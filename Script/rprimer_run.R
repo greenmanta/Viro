@@ -7,10 +7,10 @@ BiocManager::install("rprimer")
 BiocManager::install("Biostrings")
 
 
-
+#load the package
 
 library(rprimer)
 library(Biostrings)
 
-
+#Run the App 
 runRprimerApp()
